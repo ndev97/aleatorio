@@ -1,0 +1,112 @@
+body{
+    background-color: #010409;
+    color: #f2f9ff;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    margin: auto;
+    height: 900px;
+    width: 800px;
+    background-color: #222222;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+h4{
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.meses{
+    display:flex;
+    font-size: 16px;
+}
+.mes{
+    width: 100px;
+    text-align: center;
+    padding-top: 2%;
+    margin-left: 15%;
+}
+
+.input-mes{
+    margin-left: 50px;
+    width: 30%;
+    background-color: transparent;
+    color: rgb(255, 254, 244);
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    border-radius: 2px;
+    padding: 6px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.input-mes:hover{
+    border-bottom: 2px solid rgb(254 218 3);
+}
+.input-mes:focus{
+    outline: none;
+}
+
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.btn{
+    background-color: rgb(254 218 3);
+    color: black;
+    padding: 10px 60px ;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(192, 168, 31);
+}
+
+
+.output-box{
+    display: flex;
+    margin-top: 9.3%;
+    margin-bottom: 15%;
+    font-size: 16;
+    text-align: center;
+    justify-content: space-around;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.caracteristicas{
+    text-align:center;
+    padding-bottom: 7%;
+}
+.inputDos{
+    background-color: transparent;
+    color: rgb(255, 254, 244);
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid rgb(238, 238, 238);
+    border-radius: 2px;
+    padding: 6px 40px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+}
+.inputDos:hover{
+    border-bottom: 2px solid rgb(254 218 3);
+}
+.inputDos:focus{
+    outline: none;
+}
